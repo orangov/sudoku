@@ -97,7 +97,7 @@ def generate_board():
         fill_diagonal_box(board, i, i)
     # print_board(board) # Wyświetla wypełnione przekątne
 
-    # Fill the rest of the board
+    # Wypełnienie reszty tablicy
     solve(board)
 
     # Usuwanie losowych pól (ustawianie ich na 0)
